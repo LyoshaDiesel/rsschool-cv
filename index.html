@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="svg/icon.svg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header_container _container">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#about_me" class="nav_link">About me</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#contacts" class="nav_link">Contacts</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#skills" class="nav_link">Skills</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#code" class="nav_link">Code</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#projects" class="nav_link">Projects</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#education" class="nav_link">Education</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main_block">
+                <div class="main_block_container _container">
+                    <section class="developer">
+                        <div class="developer_photo"><img src="jpg/photo-alexey.jpg" alt="developer_photo"></div>
+                        <div class="developer_info">
+                            <h1 class="developer_name">Alexey Yarmanau</h1>
+                            <h2 class="developer_direction">Beginner front-end developer</h2>
+                        </div>
+                    </section>
+                    <section class="information">
+                        <div class="information-first-row">
+                        <div class="information-aboutme" id="about_me">
+                            <h2 class="aboutme-title information-title">About me</h2>
+                            <ul class="aboutme-list">
+                                <li class="aboutme-list-name information-text">Alexey Yarmanau</li>
+                                <li class="aboutme-list-birth information-text">02.09.2003</li>
+                                <li class="aboutme-list-country information-text">Belarus, Grodno</li>
+                            </ul>
+                        </div>
+                        <div class="information-contacts" id="contacts">
+                            <h2 class="contacts-title information-title">Contacts</h2>
+                            <ul class="contacts-list">
+                                <li class="contacts-list-phone information-text"><a href="tel:+375257254443" class="contacts-link" target="_blank">+375 (25) 725-44-43</a></li>
+                                <li class="contacts-list-email information-text"><a href="mailto:akljjf@gmail.com" class="contacts-link" target="_blank">akljjf@gmail.com</a></li>
+                                <li class="contacts-list-github information-text"><a href="https://github.com/LyoshaDiesel" class="contacts-link" target="_blank">LyoshaDiesel</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <div class="information-second-row">
+                            <div class="information-skills" id="skills">
+                                <h2 class="skills-title information-title">Skills</h2>
+                                <ul class="skills-list">
+                                    <li class="skills-list-web information-text">Web-dev: HTML5, CSS3, JS</li>
+                                    <li class="skills-list-control information-text">Version control: GIT, Github</li>
+                                    <li class="skills-list-graphics information-text">Graphics: Figma, Pixso</li>
+                                    <li class="skills-list-english information-text">English: B1</li>
+                                </ul>
+                            </div>
+                            <div class="information-code" id="code">
+                                <h2 class="code-title information-title">Code</h2>
+                                <div class="code-text">
+                                    let year=prompt('What year was I born?', '') <br>
+                                    if (year ᐸ 2003) { <br>
+                                        alert ('It's too early'); <br>
+                                    } 
+                                    else if (year > 2003) { <br>
+                                        alert ('It's too late'); <br>
+                                    } else { <br>
+                                        alert ('Right!'); <br>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                        <div class="information-third-row">
+                            <div class="information-projects" id="projects">
+                                <h2 class="projects-title information-title">Projects</h2>
+                                <ul class="projects-list">
+                                    <li class="projects-list-empty information-text">No any projects :(</li>
+                                </ul>
+                            </div>
+                            <div class="information-education" id="education">
+                                <h2 class="education-title information-title">Education</h2>
+                                <ul class="education-list">
+                                    <li class="education-list-university information-text">GRSU Yanka Kupala</li>
+                                    <li class="education-list-degree information-text">Bachelor's degree</li>
+                                    <li class="education-list-faculty information-text">Economics and Management</li>
+                                    <li class="education-list-complete information-text">Completion Date: June 2025</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer_container _container">
+                <div class="footer-info">
+                    <ul class="footer-info-list">
+                    <li class="footer-info-list-date">© 2024</li>
+                    <li class="footer-info-list-github"><a href="https://github.com/LyoshaDiesel" class="footer-info-list-github-link" target="_blank">My Github Profile</a></li>
+                </ul>
+                    <div class="footer-info-rsschool"><a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><img src="svg/rs-school-logo.svg" alt="rs-school" class="footer-img"></a></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
