@@ -81,6 +81,11 @@ body {
 .developer>*:not(:last-child) {
     margin: 0 200px 0 0;
 }
+@media (max-width:793px) {
+    .developer>*:not(:last-child) {
+        margin: 0 141px 0px 0;
+}
+}
 @media (max-width:734px) {
    .developer {
     flex-direction: column;
