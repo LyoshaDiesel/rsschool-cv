@@ -28,3 +28,16 @@ I enjoy solving complex problems, working in a team, and delivering high-quality
 - **Russian:** Native Speaker
 
 
+## Code Example
+
+``` 
+function findMaxNumber(arr) {
+    
+    return Math.max(...arr);
+}
+console.log(findMaxNumber([1, 10, -3, 8]))
+```
+
+
+## Education
+- Yanka Kupala State University of Grodno
