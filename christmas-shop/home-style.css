@@ -353,3 +353,94 @@ border-radius: 20px;
 z-index: 50;
 
 }
+/*Best gifts*/
+.best_gift {
+    position: relative;
+}
+.best_gift_snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    max-height: 555px;
+    object-fit: cover;
+    z-index: 30;
+}
+.best_gifts_container {
+    background-color: rgb(255, 70, 70);
+    padding: 60px 0;
+}
+
+.best_gifts_head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+.best_gifts_caption {
+    color: rgb(255, 255, 255);
+font-family: 'Allura';
+font-size: 24px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 1.2px;
+}
+.best_gifts_title {
+    color: rgb(255, 255, 255);
+font-family: 'Montserrat';
+font-size: 24px;
+font-weight: 600;
+line-height: 152%;
+letter-spacing: 3.84px;
+text-transform: uppercase;
+margin: 12px 0 0px 0;
+}
+.best_gifts_main_block {
+    display: flex;
+    justify-content: center;
+}
+.best_gifts_column:not(:last-child) {
+    margin: 0 12px 0 0;
+}
+.best_gifts_column {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.best_gifts_column img {
+    background-color: rgb(204, 225, 227);
+    border-radius: 20px 20px 0 0;
+}
+
+.best_gift_heads {
+    margin: 20px;
+}
+.best_gift_head4 {
+    margin: 0 0 8px 0;
+    color: rgb(67, 97, 255);
+font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+}
+.best_gift_head4_health {
+    color: rgb(6, 164, 79);
+}
+.best_gift_head4_harmony {
+    color: rgb(255, 67, 247);
+}
+.best_gift_head3 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 152%;
+    letter-spacing: 1.28px;
+    text-transform: uppercase;
+}
+
