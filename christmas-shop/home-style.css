@@ -409,10 +409,11 @@ margin: 12px 0 0px 0;
     flex-direction: column;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    z-index: 50;
 }
 
 .best_gifts_column img {
-    background-color: rgb(204, 225, 227);
+    background-color: rgb(236, 243, 248);
     border-radius: 20px 20px 0 0;
 }
 
@@ -444,3 +445,92 @@ text-transform: uppercase;
     text-transform: uppercase;
 }
 
+/* CTA*/
+.cta {
+    position: relative;
+}
+.cta_snow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    max-height: 668px;
+    object-fit: cover;
+    z-index: 30;
+}
+.cta_forest {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-width: 1440px;
+    max-height: 668px;
+    object-fit: cover;
+    z-index: 30; 
+}
+.cta_content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 70, 70);
+    padding: 180px 0;
+}
+.cta_title {
+    color: rgb(255, 255, 255);
+font-family: 'Montserrat';
+font-size: 24px;
+font-weight: 600;
+line-height: 152%;
+letter-spacing: 3.84px;
+max-width: 426px;
+text-align: center;
+text-transform: uppercase;
+margin: 0 0 20px 0;
+}
+.cta_caption {
+    font-family: 'Allura';
+font-size: 24px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 1.2px;
+color: rgb(255, 255, 255);
+margin: 7px 0 8px 0;
+}
+.cta_timer {
+    display: flex;
+    padding: 8px 12px 12px 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+}
+.time_block {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-width: 80px;
+}
+.time_block:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+
+    
+}
+.number {
+    color: rgb(255, 255, 255);
+font-family: 'Montserrat';
+font-size: 24px;
+font-weight: 600;
+line-height: 152%;
+letter-spacing: 3.84px;
+text-transform: uppercase;
+}
+.time {
+    font-family: 'Montserrat';
+font-size: 12px;
+font-weight: 600;
+line-height: 130%;
+letter-spacing: 0.6px;
+text-align: center;
+text-transform: uppercase;
+color: rgb(255, 255, 255);
+}
