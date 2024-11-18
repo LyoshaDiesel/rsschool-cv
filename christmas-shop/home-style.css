@@ -413,7 +413,9 @@ margin: 12px 0 0px 0;
     transition: 0.3s ease;
 }
 .best_gifts_column:hover {
-    scale: 1.03;
+    .best_gift_head3 {
+        color: rgb(255, 70, 70);
+    }
     cursor: pointer;
 }
 .best_gifts_column img {
@@ -447,6 +449,7 @@ text-transform: uppercase;
     line-height: 152%;
     letter-spacing: 1.28px;
     text-transform: uppercase;
+    transition: 0.3s ease;
 }
 
 /* CTA*/
@@ -491,6 +494,7 @@ max-width: 426px;
 text-align: center;
 text-transform: uppercase;
 margin: 0 0 20px 0;
+z-index: 50;
 }
 .cta_caption {
     font-family: 'Allura';
@@ -500,6 +504,11 @@ line-height: 100%;
 letter-spacing: 1.2px;
 color: rgb(255, 255, 255);
 margin: 7px 0 8px 0;
+z-index: 50;
+
+}
+.cta_button {
+    z-index: 50;
 }
 .cta_timer {
     display: flex;
@@ -559,7 +568,18 @@ color: rgb(255, 255, 255);
     padding: 20px;
     max-width: 417.33px;
     width: 100%;
+    transition: 0.3s ease;
 }
+.footer_top_card:hover {
+    .label {
+        color: rgb(255, 70, 70);
+    }
+    .footer_top_link {
+        color: rgb(255, 70, 70);
+    }
+    cursor: pointer;
+}
+
 .label {
     font-family: 'Montserrat';
 font-size: 24px;
@@ -570,8 +590,9 @@ letter-spacing: 3.84px;
 text-align: center;
 text-transform: uppercase;
 margin: 12px 0;
+transition: 0.3s ease;
 }
-.footer_top_card a {
+.footer_top_link {
     color: rgb(24, 28, 41);
 font-family: Montserrat;
 font-size: 16px;
@@ -580,6 +601,7 @@ line-height: 152%;
 letter-spacing: 1.28px;
 text-align: center;
 text-transform: uppercase;
+transition: 0.3s ease;
 }
 .footer_top_card:not(:last-child) {
     margin: 0 12px 0 0;
@@ -620,4 +642,10 @@ font-weight: 400;
 line-height: 100%;
 letter-spacing: 1.2px;
 text-align: center;
+transition: 0.3s ease;
+}
+
+
+.rsschool:hover {
+    color: red;
 }
