@@ -410,8 +410,11 @@ margin: 12px 0 0px 0;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     z-index: 50;
+    transition: 0.3s ease;
 }
-
+.best_gifts_column:hover {
+    scale: 1.03;
+}
 .best_gifts_column img {
     background-color: rgb(236, 243, 248);
     border-radius: 20px 20px 0 0;
@@ -533,4 +536,87 @@ letter-spacing: 0.6px;
 text-align: center;
 text-transform: uppercase;
 color: rgb(255, 255, 255);
+}
+/*Footer*/
+.footer {
+    position: relative;
+    padding: 60px 82px;
+}
+.footer_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 60px 0;
+}
+.footer_top_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(236, 243, 248);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 417.33px;
+    width: 100%;
+}
+.label {
+    font-family: 'Montserrat';
+font-size: 24px;
+font-weight: 600;
+line-height: 152%;
+color: rgb(24, 28, 41);
+letter-spacing: 3.84px;
+text-align: center;
+text-transform: uppercase;
+margin: 12px 0;
+}
+.footer_top_card a {
+    color: rgb(24, 28, 41);
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 152%;
+letter-spacing: 1.28px;
+text-align: center;
+text-transform: uppercase;
+}
+.footer_top_card:not(:last-child) {
+    margin: 0 12px 0 0;
+}
+.footer_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer_bottom_messengers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messenger_container:not(:last-child) {
+    margin: 0 12px 0 0;
+}
+.messenger_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.copyright {
+    color: rgb(24, 28, 41);
+font-family: 'Montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 148%;
+margin: 12px 0;
+}
+.rsschool {
+    color: rgb(24, 28, 41);
+font-family: 'Allura';
+font-size: 24px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 1.2px;
+text-align: center;
 }
