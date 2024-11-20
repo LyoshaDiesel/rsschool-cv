@@ -213,6 +213,7 @@ background-color: rgb(255, 70, 70);
     padding: 160px 60px;
     max-width: 638px;
     z-index: 100;
+    border-radius: 20px 0 0 20px;
 }
 .about_main_block_caption {
     font-family: 'Allura';
@@ -244,6 +245,7 @@ max-width: 426px;
     position: relative;
     z-index: 100;
     background-color: rgb(255, 255, 255);
+    border-radius: 0 20px 20px 0;
 }
 .about_main_block_santa img {
     border-radius: 20px;
@@ -336,7 +338,7 @@ z-index: 50;
     background-color: rgb(255, 255, 255);
 }
 .slider_button_active:hover .arrow_right path {
-    stroke: #dc1b1b;
+    stroke: rgb(255, 70, 70);
 }
 .slider_button_dis { 
     width: 56px;
@@ -472,7 +474,8 @@ text-transform: uppercase;
     max-width: 1440px;
     max-height: 668px;
     object-fit: cover;
-    z-index: 30; 
+    z-index: 10; 
+    border-radius:  0 0 20px 20px;
 }
 .cta_content {
     position: relative;
@@ -482,6 +485,7 @@ text-transform: uppercase;
     justify-content: center;
     background-color: rgb(255, 70, 70);
     padding: 180px 0;
+    border-radius:  0 0 20px 20px;
 }
 .cta_title {
     color: rgb(255, 255, 255);
@@ -515,6 +519,7 @@ z-index: 50;
     padding: 8px 12px 12px 12px;
     background-color: rgba(255, 255, 255, 0.4);
     border-radius: 20px;
+    z-index: 50;
 }
 .time_block {
 display: flex;
@@ -647,5 +652,11 @@ transition: 0.3s ease;
 
 
 .rsschool:hover {
-    color: red;
+    color: rgb(255, 70, 70);
 }
+
+.messenger_container:hover .messenger path {
+    stroke: rgb(255, 70, 70);
+    transition: 0.3s ease;
+}
+

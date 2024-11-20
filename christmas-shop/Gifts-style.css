@@ -135,6 +135,7 @@ header {
     align-items: center;
     background-color: rgb(255, 70, 70);
     padding: 60px 0 0 0;
+    border-radius: 20px;
 }
 .gifts_title {
     color: rgb(255, 255, 255);
@@ -346,5 +347,9 @@ transition: 0.3s ease;
 
 
 .rsschool:hover {
-    color: red;
+    color: rgb(255, 70, 70);
+}
+.messenger_container:hover .messenger path {
+    stroke: rgb(255, 70, 70);
+    transition: 0.3s ease;
 }
