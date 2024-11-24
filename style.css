@@ -362,3 +362,89 @@ text-decoration: underline;
     background: url(/svg/calendar-clock.svg) 0 0 no-repeat;
     background-size: contain;
 }
+
+/***FOOTER***/
+.footer {
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(130, 130, 196);
+    margin: 50px 0 0 0;
+}
+.footer_container {
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+}
+.footer-info {
+    display: flex;
+    align-items: center;
+}
+.footer-info-list {
+ display: flex;
+}
+.footer-info-list >*:not(:last-child) {
+    margin: 0 20px 0 0;
+}
+@media (max-width:324px) {
+    .footer-info-list >*:not(:last-child) {
+        margin: 0 15px 0 0px;
+    }
+}
+.footer-info-list-github-link {
+    color: black;
+    transition: all 0.3s ease;
+}
+.footer-info-list-github-link:hover {
+    text-decoration: underline;
+}
+.footer-img {
+    width: auto;
+    height: 30px;
+    margin: 0 0 0 820px;
+}
+@media (max-width:1124px) {
+    .footer-img {
+        margin: 0 0 0 720px;
+    }
+}
+@media (max-width:1024px) {
+    .footer-img {
+        margin: 0 0 0 620px;
+    }
+}
+@media (max-width:924px) {
+    .footer-img {
+        margin: 0 0 0 520px;
+    }
+}
+@media (max-width:824px) {
+    .footer-img {
+        margin: 0 0 0 420px;
+    }
+}
+@media (max-width:724px) {
+    .footer-img {
+        margin: 0 0 0 320px;
+    }
+}
+@media (max-width:624px) {
+    .footer-img {
+        margin: 0 0 0 220px;
+    }
+}
+@media (max-width:524px) {
+    .footer-img {
+        margin: 0 0 0 120px;
+    }
+}
+@media (max-width:424px) {
+    .footer-img {
+        margin: 0 0 0 20px;
+    }
+}
+@media (max-width:324px) {
+    .footer-img {
+        margin: 0 0 0 15px;
+    }
+}
